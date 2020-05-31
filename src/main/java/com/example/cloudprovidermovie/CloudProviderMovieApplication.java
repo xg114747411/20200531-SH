@@ -7,7 +7,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class CloudProviderMovieApplication {
-
+	
+	//真是主方法
     public static void main(String[] args) {
         SpringApplication.run(CloudProviderMovieApplication.class, args);
     }
